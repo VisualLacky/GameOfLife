@@ -25,8 +25,6 @@ public class IterationCounterTask implements Runnable {
     appServiceModel.setCurrentIterationsCount(
         appServiceModel.getCurrentIterationsCount() + 1);
 
-    System.out.println("Current iteration is: "+appServiceModel.getCurrentIterationsCount());
-
     if (appServiceModel.getCurrentIterationsCount() == targetIterationsCount) {
       appServiceModel.pause();
       appServiceModel.resetThreads();
