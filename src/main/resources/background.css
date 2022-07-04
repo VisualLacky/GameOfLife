@@ -1,0 +1,128 @@
+.imagePane {
+  -fx-background-image: url("stripes.png");
+}
+
+.boxes{
+-fx-border-color: black;
+-fx-border-width: 3 3 3 3;
+}
+
+.buttons {
+  -fx-max-width: 70; -fx-max-height:25; -fx-min-width:70; -fx-min-height:25;
+  -fx-font: 12px Tahoma;
+  -fx-font-family: "Andale Mono";
+  -fx-font-weight: bold;
+  -fx-content-display: center;
+
+  -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #ffae00 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 95%, #ffea00, #ff3900);
+
+  -fx-background-radius: 4,3;
+  -fx-background-insets: 0, 1;
+
+}
+
+.buttons:hover {
+  -fx-effect: dropshadow( three-pass-box, yellow, 10.0, 0.0, 0.0, 0.0);
+  -fx-background-color:white;
+   -fx-text-fill:black;
+   -fx-font-weight:bold;
+}
+
+#startButton{
+}
+
+#imagePane {
+  -fx-background-image: url('Stripes2.png');
+  -fx-background-size: stretch;
+}
+
+#commonBackground {
+  -fx-background-color: #3268bf;
+  -fx-background-image: url('Gradient2.png');
+  -fx-background-size: stretch;
+}
+
+#fieldForColony {
+  -fx-background-color: #bfc8d6;
+}
+
+#buttonsImagedPane {
+  -fx-background-image: url('plate.png'); -fx-background-size: stretch;
+}
+
+#miniPane {
+  /*-fx-background-color: #7d94ba;*/
+}
+
+.dialog-pane{
+  -fx-border-color:black;
+  -fx-border-width:2.0px;
+
+  -fx-background-image: url('Gradient3.png'); -fx-background-size: stretch;
+ }
+
+
+.dialog-pane:header .header-panel {
+  -fx-background-color: #000000;
+  -fx-opacity: 0.5;
+}
+
+.dialog-pane:header .header-panel .label{
+  -fx-background-radius:10px;
+  -fx-text-fill:black;
+  -fx-font-size:15.0px;
+}
+
+
+.dialog-pane > .button-bar > .container {
+  -fx-padding: 2.0em 12.0em 2.0em 0.5em;
+}
+
+.dialog-pane > .content {
+  -fx-background-image: url('nc.png');
+}
+
+.dialog-pane > .content.label {
+   -fx-padding: 0.5em 0.5em 0.5em 3.0em;
+   -fx-background-color: #ffb11f;
+   -fx-text-fill:black;
+   -fx-font-size:18.0px;
+   -fx-text-alignment: center;
+   -fx-font-weight: bold;
+
+   -fx-border-color:black;
+   -fx-border-width:2.0px;
+   -fx-border-width: 0 1 0 1;
+
+
+}
+
+
+/**Customization of Buttons**/
+.dialog-pane .button{
+   -fx-max-width: 70; -fx-max-height:30; -fx-min-width:70; -fx-min-height:30;
+     -fx-font: 12px Tahoma;
+     -fx-font-family: "Andale Mono";
+     -fx-font-weight: bold;
+     -fx-content-display: center;
+
+     -fx-background-color:
+           linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #ffae00 100%),
+                   #9d4024,
+                   #d86e3a,
+                   radial-gradient(center 50% 50%, radius 95%, #ffea00, #ff3900);
+
+     -fx-background-radius: 4,3;
+     -fx-background-insets: 0, 1;
+ }
+
+.dialog-pane .button:hover{
+  -fx-background-color:white;
+  -fx-text-fill:black;
+  -fx-font-weight:bold;
+  -fx-effect: dropshadow( three-pass-box, yellow, 10.0, 0.0, 0.0, 0.0);
+ }
