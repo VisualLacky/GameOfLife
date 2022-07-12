@@ -4,4 +4,4 @@
 Original idea by <i>John Convey</i>, 1970.
 
 Technologies:  <br/>
-<b>JavaFx</b> (view), <b>Java core</b> (collections, multithreading, streams, etc.), <b>JUnit, Mockito</b> (testing)
+<b>JavaFx</b> (view), <b>Java core</b> (collections, multithreading, streams, etc.), <b>JUnit, Mockito</b> (testing), <b>CSS</b> (window styles)
